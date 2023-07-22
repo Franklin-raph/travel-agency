@@ -1555,6 +1555,10 @@ function cruiseSlider() {
 function mastheadSlider4() {
   new Swiper('.js-masthead-slider-4', {
     speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
     navigation: {
       prevEl: '.js-prev',
       nextEl: '.js-next',
